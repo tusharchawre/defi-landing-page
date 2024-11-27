@@ -10,7 +10,7 @@ function App() {
     <div className="bg-black w-full h-screen text-white font-light p-4">
       <nav className="flex items-center justify-between">
       <Logo />
-      <Navbar  />
+      <Navbar />
       <Button text="Create Account" variant="special" iconURL="/icons/user-line.svg" />
       </nav>
 
