@@ -13,7 +13,7 @@ import Transactions from "./components/Transactions"
 
 
 function App() {
-  const [date, setDate] = useState(new Date());
+  const [date] = useState(new Date());
 
   return (
     <>
