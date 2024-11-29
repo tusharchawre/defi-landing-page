@@ -131,16 +131,16 @@ function App() {
 
     </div>
     <footer className="flex items-center justify-between bg-black text-white pb-2 px-10">
-      <div className="flex gap-2 items-center">
+      <div className="hidden md:flex gap-2 items-center">
         <p>Support</p>
         <div className="w-1 h-1 bg-white rounded-full"></div>
         <p>Register</p>
       </div>
-      <div className="text-sm text-white/50">
+      <div className="text-sm text-center w-full text-white/50">
       <p>&copy; Designed with Love at DeFi PFA Studio . 2024</p>
         
       </div>
-      <div className="flex gap-2 items-center">
+      <div className="hidden gap-2 items-center md:flex">
         <Button variant="dark" className="rounded-md py-2 px-2" iconURL="/icons/twitter-x-line.svg">
 
         </Button>
