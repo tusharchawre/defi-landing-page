@@ -2,7 +2,7 @@
 const ConcCircle = () => {
   return (
     <div>
-        <div className="relative z-10">
+        <div className="relative z-10 scale-[0.9] md:scale-100">
       <div className=" w-full h-full scale-[.35] absolute -z-10">
 
       <div className="w-full h-full animate-spin-slow absolute -z-10">

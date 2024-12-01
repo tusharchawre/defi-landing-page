@@ -9,6 +9,7 @@ import ConcCircle from "./components/ConcCircle"
 import ButtonShowcase from "./components/ButtonShowcase"
 
 import Transactions from "./components/Transactions"
+import GlassCard from "./components/GlassCard"
 
 
 
@@ -17,15 +18,15 @@ function App() {
 
   return (
     <>
-    <div className="bg-black w-full h-screen text-white font-light p-4 overflow-x-hidden">
-      <nav className="flex items-center justify-between">
+    <div className="bg-black w-full h-screen text-white font-light p-4 ">
+      <div className="flex items-center justify-between">
       <Logo />
       <Navbar />
       <Button variant="dark" className="bg-white/5 text-sm  py-2 px-3">
         <img src="/icons/user-line.svg" alt="" className="size-4"/>
       Create Account
       </Button>
-      </nav>
+      </div>
 
       <main className="w-full h-4/5 my-2 rounded-xl overflow-hidden ">
 
@@ -113,11 +114,130 @@ function App() {
 
 
 <GradientBg2>
-<div className="w-full h-full flex flex-col items-center justify-around text-white">
+<div className="w-full h-full flex flex-col items-center justify-around text-white p-12 overflow-auto">
 <div className="text-center">
         <p className="text-5xl md:text-7xl">Meet Marvellous Insights</p>
         <p className="text-sm text-white/80 md:text-base">Save your team's precious time. Config replaces the lengthy process of manual BOM</p>
         </div>
+
+    <div className="md:grid md:grid-col-3 md:grid-rows-2 h-full flex flex-col gap-4 w-full md:p-12">
+    <div className="md:col-span-2 w-full" >
+      <GlassCard>
+        <div className="w-full h-full flex flex-col items-center justify-center gap-4 p-8">
+          <div className="text-center">
+
+        <p className="text-7xl font-thin">98.2%</p>
+        <p className="text-white/50">Spots . <span className="text-yellow-300/60">WorldWide</span></p>
+          </div>
+
+          <div className="flex flex-wrap gap-4 items-center justify-center">
+            <Button variant="dark" className="py-1 px-2 text-sm opacity-70">
+            <Button variant="dark" className="py-0 px-1 text-xs" >
+            ^K 
+              </Button>
+              Opens Spots api dev
+            </Button>
+            <Button variant="dark" className="py-1 px-2 text-sm opacity-70">
+            <Button variant="dark" className="py-0 px-1 text-xs" >
+            ! 
+              </Button>
+              Assign issue to experts            
+              </Button>
+              <Button variant="dark" className="py-1 px-2 text-sm opacity-70">
+            <Button variant="dark" className="py-0 px-1 text-xs" >
+            A
+              </Button>
+              Assign new
+            </Button>
+          </div>
+
+        <div className="w-full text-wrap text-center">
+          <p className="text-2xl">Success Transactions</p>
+          <p className="text-sm text-white/50">Innovative blockchain technology meets financial expertise to empower your investment journey.</p>
+        </div>
+        </div>
+      </GlassCard>
+      </div>
+    <div className="md:col-start-3 w-full ">
+      <GlassCard>
+        <div className="flex items-center justify-center w-full h-full flex-col p-8 text-center">
+          <p className="text-2xl">Liquidity Labyrinth</p>
+          <p className="text-white/50">
+          Liquidity Labyrinth, where each turn reveals new opportunities.</p>
+
+        </div>
+      </GlassCard>
+      </div>
+    <div className="md:row-start-2 w-full ">
+      <GlassCard>
+        <div className="h-full w-full flex flex-col items-center justify-center md:p-4 p-8 px-1 gap-2">
+
+    <div className="flex flex-shrink-0 gap-4 text-left h-3/4 w-3/4 overflow-auto ">
+
+    
+          <GlassCard>
+            <div className="w-full h-full p-4 flex-col flex items-start justify-center">
+            <div className="flex gap-1 items-center">
+            <Button variant="dark" className="bg-yellow-500 py-4 px-1 scale-50">
+            </Button>
+            <p>Financial</p>
+
+            </div>
+
+            <p className="text-yellow-300 text-2xl">Growth</p>
+            <p className="text-white text-4xl">19.2</p>
+            <p className="text-sm">$2.7m</p>
+          
+            </div>
+
+          </GlassCard>
+          <GlassCard>
+            <div className="w-full h-full p-4 flex-col flex items-start justify-center">
+            <div className="flex gap-1 items-center">
+            <Button variant="dark" className="bg-green-500 py-4 px-1 scale-50">
+            </Button>
+            <p>Financial</p>
+
+            </div>
+
+            <p className="text-green-400 text-2xl">Growth</p>
+            <p className="text-white text-4xl">24.2</p>
+            <p className="text-sm">$3.7m</p>
+          
+            </div>
+
+          </GlassCard>
+
+          </div>
+
+
+<div className="text-center">
+
+          <p className="text-lg">Your Palette Financial oppurtunities</p>
+          <p className="text-sm text-white/50">Watch your assets grow in a thriving ecosystem so easy</p>
+</div>
+
+        </div>
+      </GlassCard>
+      </div>
+    <div className="md:col-span-2  w-full row-start-2">
+      <GlassCard>
+        <div className="w-full h-full flex flex-col items-center justify-center text-center p-4 gap-4">
+          <div>
+          <p className="text-xl ">DeFi Space . Oppurtunities</p>
+          <p className="text-white/50">Where each stroke is a smart contract and every color is a chance to build a portfolio</p>
+          </div>
+          <div className=" rounded-3xl w-full h-3/4 overflow-hidden">
+          <img src="/Graph.png" className="object-coverobject-center	"/>
+          </div>
+          
+          
+
+        </div>
+      </GlassCard>
+
+    </div>
+    </div>
 
 
 </div>
