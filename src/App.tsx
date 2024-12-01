@@ -109,14 +109,14 @@ function App() {
     
     </div>
 
-    <div className="w-full h-[120vh] bg-black p-8">
+    <div className="w-full h-[132vh] bg-black p-8">
     <main className="w-full h-full my-2 rounded-3xl overflow-hidden">
 
 
 
 
 <GradientBg2>
-<div className="w-full h-full flex flex-col items-center justify-around text-white p-12 overflow-scroll">
+<div className="w-full h-full flex flex-col items-center justify-around text-white p-12 ">
 <div className="text-center">
         <p className="text-5xl md:text-7xl">Meet Marvellous Insights</p>
         <p className="text-sm text-white/80 md:text-base">Save your team's precious time. Config replaces the lengthy process of manual BOM</p>
