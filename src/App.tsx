@@ -13,6 +13,8 @@ import GlassCard from "./components/GlassCard"
 
 
 
+
+
 function App() {
   const [date] = useState(new Date());
 
@@ -114,7 +116,7 @@ function App() {
 
 
 <GradientBg2>
-<div className="w-full h-full flex flex-col items-center justify-around text-white p-12 overflow-auto">
+<div className="w-full h-full flex flex-col items-center justify-around text-white p-12 overflow-scroll">
 <div className="text-center">
         <p className="text-5xl md:text-7xl">Meet Marvellous Insights</p>
         <p className="text-sm text-white/80 md:text-base">Save your team's precious time. Config replaces the lengthy process of manual BOM</p>
