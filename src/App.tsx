@@ -227,7 +227,7 @@ function App() {
         <div className="w-full h-full flex flex-col items-center justify-center text-center p-4 gap-4">
           <div>
           <p className="text-xl ">DeFi Space . Oppurtunities</p>
-          <p className="text-white/50">Where each stroke is a smart contract and every color is a chance to build a portfolio</p>
+          <p className="text-white/50">Where each stroke is a smart contract and every color is a chance to build a portfolio.</p>
           </div>
           <div className=" rounded-3xl w-full h-3/4 overflow-hidden">
           <img src="/Graph.png" className="object-coverobject-center	"/>
